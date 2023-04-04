@@ -61,7 +61,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="CLICK HERE TO ADD ME", url=https://t.me/FANTASTICFIGHTERBOT?startgroup=true") 
+                text="CLICK HERE TO ADD ME", url="https://t.me/FANTASTICFIGHTERBOT?startgroup=true") 
             )
         ],
     return buttons
