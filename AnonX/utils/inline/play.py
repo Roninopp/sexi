@@ -171,7 +171,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="CLICK HERE TO ADD ME", url=https://t.me/FANTASTICFIGHTERBOT?startgroup=true") 
+                text="CLICK HERE TO ADD ME", url="https://t.me/FANTASTICFIGHTERBOT?startgroup=true") 
             )
         ],
     return buttons
