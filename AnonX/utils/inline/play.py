@@ -146,7 +146,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="CLICK HERE TO ADD ME", url=https://t.me/FANTASTICFIGHTERBOT?startgroup=true") 
+                text="CLICK HERE TO ADD ME", url="https://t.me/FANTASTICFIGHTERBOT?startgroup=true") 
             )
         ],
     return buttons
@@ -325,7 +325,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="CLICK HERE TO ADD ME", url=https://t.me/FANTASTICFIGHTERBOT?startgroup=true") 
+                text="CLICK HERE TO ADD ME", url="https://t.me/FANTASTICFIGHTERBOT?startgroup=true") 
             )
         ],
     return buttons
