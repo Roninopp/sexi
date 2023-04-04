@@ -61,10 +61,9 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+                text="CLICK HERE TO ADD ME", url=https://t.me/FANTASTICFIGHTERBOT?startgroup=true") 
             )
         ],
-    ]
     return buttons
 
 
@@ -147,10 +146,9 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+                text="CLICK HERE TO ADD ME", url=https://t.me/FANTASTICFIGHTERBOT?startgroup=true") 
             )
         ],
-    ]
     return buttons
 
 
@@ -173,10 +171,9 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+                text="CLICK HERE TO ADD ME", url=https://t.me/FANTASTICFIGHTERBOT?startgroup=true") 
             )
         ],
-    ]
     return buttons
 
 
@@ -328,8 +325,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+                text="CLICK HERE TO ADD ME", url=https://t.me/FANTASTICFIGHTERBOT?startgroup=true") 
             )
         ],
-    ]
     return buttons
