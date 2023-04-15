@@ -65,10 +65,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="Support", url=f"https://t.me/fantastic_support"
+                text="SUPPORT♡", url=f"https://t.me/fantastic_support"
             ),
             InlineKeyboardButton(
-                text="Channel", url=f"https://t.me/fantastic_updates"
+                text="UPDATE♡", url=f"https://t.me/fantastic_updates"
             ),
 
         ]
@@ -160,10 +160,10 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="Support", url=f"https://t.me/fantastic_support"
+                text="SUPPORTᥫ᭡", url=f"https://t.me/fantastic_support"
             ),
             InlineKeyboardButton(
-                text="Channel", url=f"https://t.me/fantastic_updates"
+                text="UPDATE♡", url=f"https://t.me/fantastic_updates"
             ),
 
         ]
@@ -194,10 +194,10 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="Support", url=f"https://t.me/fantastic_support"
+                text="SUPPORT♡", url=f"https://t.me/fantastic_support"
             ),
             InlineKeyboardButton(
-                text="Channel", url=f"https://t.me/fantastic_updates"
+                text="UPDATES♡", url=f"https://t.me/fantastic_updates"
             ),
 
         ]
@@ -357,10 +357,10 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="Support", url=f"https://t.me/fantastic_support"
+                text="SUPPORT♡", url=f"https://t.me/fantastic_support"
             ),
             InlineKeyboardButton(
-                text="Channel", url=f"https://t.me/fantastic_updates"
+                text="UPDATES♡", url=f"https://t.me/fantastic_updates"
             ),
 
         ]
