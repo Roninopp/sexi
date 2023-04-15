@@ -63,6 +63,15 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             InlineKeyboardButton(
                 text="💖CLICK HERE TO ADD ME💖", url="https://t.me/FANTASTICFIGHTERBOT?startgroup=true")
         ],
+        [
+            InlineKeyboardButton(
+                text="Support", url=f"https://t.me/fantastic_support"
+            ),
+            InlineKeyboardButton(
+                text="Channel", url=f"https://t.me/fantastic_updates"
+            ),
+
+        ]
     ]
     return buttons
 
@@ -120,6 +129,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
+        
     ]
     return buttons
 
@@ -148,6 +158,15 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(
                 text="CLICK HERE TO ADD ME", url="https://t.me/FANTASTICFIGHTERBOT?startgroup=true")
         ],
+        [
+            InlineKeyboardButton(
+                text="Support", url=f"https://t.me/fantastic_support"
+            ),
+            InlineKeyboardButton(
+                text="Channel", url=f"https://t.me/fantastic_updates"
+            ),
+
+        ]
     ]
     return buttons
 
@@ -173,6 +192,15 @@ def telegram_markup(_, chat_id):
             InlineKeyboardButton(
                 text="❤CLICK HERE TO ADD ME❤", url="https://t.me/FANTASTICFIGHTERBOT?startgroup=true") 
         ],
+        [
+            InlineKeyboardButton(
+                text="Support", url=f"https://t.me/fantastic_support"
+            ),
+            InlineKeyboardButton(
+                text="Channel", url=f"https://t.me/fantastic_updates"
+            ),
+
+        ]
     ]
     return buttons
 
@@ -327,5 +355,14 @@ def queue_markup(_, videoid, chat_id):
             InlineKeyboardButton(
                 text="🙂CLICK HERE TO ADD ME🙃", url="https://t.me/FANTASTICFIGHTERBOT?startgroup=true")
         ],
+        [
+            InlineKeyboardButton(
+                text="Support", url=f"https://t.me/fantastic_support"
+            ),
+            InlineKeyboardButton(
+                text="Channel", url=f"https://t.me/fantastic_updates"
+            ),
+
+        ]
     ]
     return buttons
