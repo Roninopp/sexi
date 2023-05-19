@@ -7,14 +7,14 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = 7217645
+API_HASH = 78ba6352dd5cdc166fdef5aa84ba7c67
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = 2100096282:AAHFyyJsiWXgUuR5kaahD_kKwH6h2CoNJE8
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://DARKAMAN:DARKAMAN@cluster0.snqhn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+LOG_GROUP_ID = -1001564289796
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Fantastic")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "1793699293").split()))
 
@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Roninopp/sexi")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/team_samurai_network")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Ronin_Fighters_fd")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Fantastic_support")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "Fantastic_support")
 
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
@@ -57,7 +57,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", BQCXZtz_GWZGhAmPl7k_zs3ZvoLY3FSHig7LxZv2_F1LPot6Nd0xWou6s-zVTd5tXFhehylYOKyHdvkUFtI20U3Xf1ZJp5ITo2uHmcXuq_CSUV5P0i32rNEv9Wm0d1udH6qZt5bdAo6OEVR0cqYsnX7cA6-oVOoTLikIJOn8PXi6_xMcnGls-RAdkT98s4_TXF15iJZ9OK_MGUMbFgpYlHNeiWOqmQJ-4MMHKRtKwj5VSizZlkFVoh3qG4YNsny_r7m4c-VhpMmfOvVzM7tsK9kiP7aA3uSrWe7J64iRiqVpPo8UMN5DLCAoJWrw49GQk2NDgHalD3S8hGmuGAj64Q7xAAAAAUK509kA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
