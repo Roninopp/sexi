@@ -14,16 +14,16 @@ BOT_TOKEN = "2100096282:AAHFyyJsiWXgUuR5kaahD_kKwH6h2CoNJE8"
 
 MONGO_DB_URI = "mongodb+srv://DARKAMAN:DARKAMAN@cluster0.snqhn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 LOG_GROUP_ID = -1001564289796
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Fantastic")
+MUSIC_BOT_NAME = "Fantastic"
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1793699293").split()))
+OWNER_ID = [1793699293]
 
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
+HEROKU_API_KEY = None
+HEROKU_APP_NAME = None
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Roninopp/sexi")
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+UPSTREAM_REPO = "https://github.com/Roninopp/sexi"
+UPSTREAM_BRANCH = "master"
+GIT_TOKEN = None
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Fantastic_support")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "Fantastic_support")
