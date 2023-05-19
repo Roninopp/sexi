@@ -12,7 +12,7 @@ API_HASH = "78ba6352dd5cdc166fdef5aa84ba7c67"
 
 BOT_TOKEN = "2100096282:AAHFyyJsiWXgUuR5kaahD_kKwH6h2CoNJE8"
 
-MONGO_DB_URI = "mongodb+srv://FantasticRobot:FantasticRobot@cluster0.8ka4syj.mongodb.net/?retryWrites=true&w=majority"
+MONGO_DB_URI = "mongodb+srv://DARKAMAN:DARKAMAN@cluster0.snqhn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 LOG_GROUP_ID = -1001564289796
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Fantastic")
 
