@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = 7217645
 API_HASH = "78ba6352dd5cdc166fdef5aa84ba7c67"
 
-BOT_TOKEN = "2100096282:AAHFyyJsiWXgUuR5kaahD_kKwH6h2CoNJE8"
+BOT_TOKEN = "2100096282:AAGisj7MdXcXXRD-DmJ2ix8E-FmbrUNVtEM"
 
 MONGO_DB_URI = "mongodb+srv://DARKAMAN:DARKAMAN@cluster0.snqhn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 LOG_GROUP_ID = -1001564289796
